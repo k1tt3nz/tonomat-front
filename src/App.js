@@ -3,14 +3,13 @@ import "./App.css"
 import FallingCircles from "./components/FallingCircles/FallingCircles";
 import FeatureCards from "./components/FeatureCards/FeatureCards";
 import BigText from "./components/BigText/BigText";
+import ContentLaout from "./components/ContentLayout/ContentLaout";
 
 function App() {
     return (
         <div className="main">
-            <Header/>
-            <BigText/>
             <FallingCircles/>
-            <FeatureCards/>
+            <ContentLaout/>
         </div>
     );
 }
