@@ -1,0 +1,10 @@
+.containerContentLaout{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    align-items: center; /* Центрируем блоки по горизонтали */
+    gap: 20px; /* Добавляем отступы между блоками */
+    padding: 20px; /* Добавляем внутренний отступ, если нужно */
+}
