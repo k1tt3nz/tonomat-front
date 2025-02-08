@@ -1,0 +1,14 @@
+.big-text {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 20px;
+}
+
+.big-text .text {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}

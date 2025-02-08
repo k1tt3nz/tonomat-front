@@ -1,0 +1,42 @@
+.feature-cards {
+    position: absolute;
+    top: 100px; /* Расположение над анимацией */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.feature-cards .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.feature-cards .text{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: center;
+}
+
+.blue { background-color: #0098EA; }
+.white { background-color: white; color: black; }
+.dark { background-color: #19223A; }
+
+.blue-text { color: #0098EA; }
+.dark-text { color: #19223A; }

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/public/fonts/Inter-400.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    align-items: center; /* Центрируем блоки по горизонтали */
+    gap: 20px; /* Добавляем отступы между блоками */
+    padding: 20px; /* Добавляем внутренний отступ, если нужно */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
